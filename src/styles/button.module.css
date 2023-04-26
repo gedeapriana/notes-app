@@ -1,0 +1,20 @@
+.button {
+  width: 50%;
+  border-top: 1px solid var(--gray-color);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:first-child {
+  border-right: 1px solid var(--gray-color);
+  color: var(--yellow-color);
+}
+
+.button:last-child {
+  color: var(--red-color);
+}

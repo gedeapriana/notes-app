@@ -1,0 +1,65 @@
+.inputForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.form {
+  /* border: solid 1px var(--gray-color); */
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form > :nth-child(2), form > :nth-child(3) {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid var(--gray-color);
+  padding: 10px;
+}
+
+.textarea {
+  height: 200px;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid var(--gray-color);
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.small {
+  display: block;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+
+  .form {
+    width: 600px;
+  }
+}

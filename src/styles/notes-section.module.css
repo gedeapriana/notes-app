@@ -1,0 +1,39 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.noteslist {
+  padding: 10px;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.empty {
+  color: var(--red-color);
+  margin: auto;
+}
+
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+}

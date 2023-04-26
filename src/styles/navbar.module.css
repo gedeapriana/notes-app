@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.4rem;
+  padding: 20px;
+}
+
+.input {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid var(--gray-color);
+  margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 70%;
+  }
+
+  .input {
+    margin: 0;
+  }
+}
